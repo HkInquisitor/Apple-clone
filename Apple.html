@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Menu-bar.css"> <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="Product.css"> <!-- Link to the product-specific CSS file -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-XLNO7qKQ7wGLy4+nQs0al9Z0yX8EROR8L+mvL4vw9y9T5Kz1vMJvqBjsK+gswXl39e/frcKdM58e8giTzGwNcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Link to Font Awesome icons -->
+  <title>Apple</title>
+</head>
+<body>
+
+<div class="menu-bar">
+  <img class="logo" src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-index-content-uploads-10.png" alt="Apple Logo">
+  <ul class="menu-items">
+    <li><a href="#">Mac</a></li>
+    <li><a href="#">iPad</a></li>
+    <li><a href="#">iPhone</a></li>
+    <li><a href="#">Watch</a></li>
+    <li><a href="#">TV</a></li>
+    <li><a href="#">Music</a></li>
+    <li><a href="#">Entertainment</a></li>
+    <li><a href="#">Accessory</a></li>
+    <li><a href="#">Support</a></li>
+  </ul>
+  <ul class="menu-items">
+    <li class="search-icon">
+      <i class="fas fa-search"></i>
+      <img class="search-icon" src="https://img.icons8.com/?size=1x&id=132&format=png" alt="=search-icon"
+    </li>
+    <li class="cart-icon">
+      <i class="fas fa-shopping-cart"></i>
+      <img class="search-icon" src="https://img.icons8.com/?size=1x&id=3686&format=png" alt="=cart-icon"
+    </li>
+  </ul>
+</div>
+
+<!-- Product View -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Product.css">
+  <title>iPhone 15</title>
+</head>
+
+<body>
+  <section class="product-main">
+    <div class="product-details">
+      <div class="product-image">
+        <img src="https://www.apple.com/v/iphone-15-pro/a/images/overview/welcome/hero_endframe__ov6ewwmbhiqq_large.jpg" alt="iPhone 15 Pro">
+      </div>
+      <div class="button-container">
+        <button class="learn-more-button">Learn More</button>
+        <button class="buy-button" onclick="addToCart('iPhone 15 Pro')">Buy Now</button>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+<!-- Product View -->
+<body>
+  <section class="product-main">
+    <div class="product-details">
+      <div class="product-image">
+        <img src="https://www.apple.com/v/iphone-15/a/images/overview/welcome/hero_endframe__e0ajd2ayxqc2_large.jpg" alt="iPhone 15">
+      </div>
+      <div class="button-container">
+        <button class="learn-more-button">Learn More</button>
+        <button class="buy-button" onclick="addToCart('iPhone 15')">Buy Now</button>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+<footer>
+  <div>Copyright © 2023 Apple Inc. All rights reserved.</div>
+  <ul>
+    <li><a href="/legal/privacy/">Privacy Policy</a></li>
+    <li><a href="/legal/internet-services/terms/site.html">Terms of Use</a></li>
+    <li><a href="/us/shop/goto/help/sales_refunds">Sales and Refunds</a></li>
+    <li><a href="/legal/">Legal</a></li>
+    <li><a href="/sitemap/">Site Map</a></li>
+  </ul>
+</footer>
+
+
+<script src="Cart.js"></script>
+
+</body>
+</html>
