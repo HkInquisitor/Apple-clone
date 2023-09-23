@@ -11,12 +11,17 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('./...');
+    background: url('/Img/richard-horvath-cPccYbPrF-A-unsplash.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .wrapper {
     width: 450px;
-    background: purple;
+    background: transparent ;
+    bottom: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
