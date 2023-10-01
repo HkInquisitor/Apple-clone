@@ -96,7 +96,7 @@ flex: 1;
 
 .slider-container {
   position: relative;
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
   overflow: hidden;
   border: 1px solid #ccc; /* Border color similar to Apple's style */
@@ -115,7 +115,8 @@ flex: 1;
 
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   border-radius: 8px; /* Rounded corners for images */
 }
 
