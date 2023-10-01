@@ -94,6 +94,34 @@ flex: 1;
 }
 
 
+.slider-container {
+  position: relative;
+  max-width: 80%;
+  margin: auto;
+  overflow: hidden;
+  border: 1px solid #ccc; /* Border color similar to Apple's style */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+
+
+
 
 /* Apple-style footer styles */
 .apple-footer {
