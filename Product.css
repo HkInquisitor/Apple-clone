@@ -62,6 +62,13 @@ flex: 1;
   padding: 5px; /* Thêm padding để tạo khoảng trống */
   float: left; /* Hiển thị sản phẩm cạnh nhau */
 }
+
+.product-mainhalf-screen .product-image img {
+  width: 100%; /* Make the image fill the container */
+  height: 3000px; /* Adjust the height as needed */
+  object-fit: cover; /* Maintain aspect ratio and cover the area */
+}
+
 .Halfoverlay {
   position: absolute;
   top: 10%;
@@ -74,30 +81,32 @@ flex: 1;
   font-size: 40px;
 }
 
+.HalfoverlayShop {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; /* Transparent background */
+  padding: 10px;
+  color: rgb(255, 255, 255); /* Default text color */
+  font-weight: bold;
+  font-size: 40px;
+}
+
 
 
 /* Apple-style footer styles */
 .apple-footer {
   background-color: #f9f9f9;
-  padding: 20px 0;
   text-align: center;
   font-size: 14px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+  padding: 20px;
 }
 
 .apple-footer .container {
   max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
+  margin: 0 auto;;
   justify-content: center;
-}
-
-.apple-footer .footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .apple-footer .footer-content p {
