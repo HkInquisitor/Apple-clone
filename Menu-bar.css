@@ -47,7 +47,7 @@ body {
   position: absolute;
   background-color: whitesmoke; /* Slightly transparent white background */
   z-index: 1;
-  width: 150px; /* Adjust the width as needed */
+  width: 90px; /* Adjust the width as needed */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px; /* Rounded corners */
 }
@@ -61,7 +61,8 @@ body {
 }
 
 .submenu li a {
-  padding: 15px 20px; /* Adjusted padding for a more spacious feel */
+  margin-left: -30%;
+  padding: 10px; /* Adjusted padding for a more spacious feel */
   color: #333; /* Darker text color */
   text-decoration: none;
   display: block;
@@ -69,10 +70,77 @@ body {
 }
 
 .submenu li a:hover {
-  background-color: #f0f0f0; /* Light gray background on hover */
+  background-color:rgba(0, 122, 204, 0.1); /* Light gray background on hover */
   color: #0070c9; /* Apple-like blue for text on hover */
 }
 
+
+.submenu_W {
+  list-style: none;
+  display: none;
+  position: absolute;
+  background-color: whitesmoke; /* Slightly transparent white background */
+  z-index: 1;
+  width: 140px; /* Adjust the width as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Rounded corners */
+}
+
+.menu-items li:hover .submenu_W {
+  display: block;
+}
+
+.submenu_W li {
+  margin: 0;
+}
+
+.submenu_W li a {
+  margin-left: -30%;
+  padding: 10px; /* Adjusted padding for a more spacious feel */
+  color: #333; /* Darker text color */
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submenu_W li a:hover {
+  background-color:rgba(0, 122, 204, 0.1); /* Light gray background on hover */
+  color: #0070c9; /* Apple-like blue for text on hover */
+}
+
+
+.submenu_E {
+  list-style: none;
+  display: none;
+  position: absolute;
+  background-color: whitesmoke; /* Slightly transparent white background */
+  z-index: 1;
+  width: 100px; /* Adjust the width as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Rounded corners */
+}
+
+.menu-items li:hover .submenu_E {
+  display: block;
+}
+
+.submenu_E li {
+  margin: 0;
+}
+
+.submenu_E li a {
+  margin-left: -30%;
+  padding: 10px; /* Adjusted padding for a more spacious feel */
+  color: #333; /* Darker text color */
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submenu_E li a:hover {
+  background-color:rgba(0, 122, 204, 0.1); /* Light gray background on hover */
+  color: #0070c9; /* Apple-like blue for text on hover */
+}
 
 
 .search-icon img,
