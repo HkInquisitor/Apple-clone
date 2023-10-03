@@ -38,6 +38,28 @@ body {
   background-color: #555;
 }
 
+.submenu {
+  display: flex;
+  flex-direction: column; /* Display items in a column */
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.submenu li {
+  margin-bottom: 10px; /* Space between submenu items */
+}
+
+.submenu li a {
+  display: block; /* Display each item as a block to stack vertically */
+  color: black;
+  text-decoration: none;
+}
+
+.submenu li a:hover {
+  color: whitesmoke;
+}
+
+
 .search-icon img,
 .menu-items li img {
   filter: invert(0);
