@@ -45,21 +45,14 @@ function addToCart(product) {
 
   
   //Menu dropdown
-  document.addEventListener("click", e => {
-    const isDropdownButton = e.target.matches("[data-dropdown-button]")
-    if (!isDropdownButton && e.target.closest("[data-dropdown]") != null) return
-  
-    let currentDropdown
-    if (isDropdownButton) {
-      currentDropdown = e.target.closest("[data-dropdown]")
-      currentDropdown.classList.toggle("active")
+  function toggleSubmenu() {
+    var submenu = document.querySelector('.submenu');
+    if (submenu.style.display === 'block') {
+      submenu.style.display = 'none';
+    } else {
+      submenu.style.display = 'block';
     }
-  
-    document.querySelectorAll("[data-dropdown].active").forEach(dropdown => {
-      if (dropdown === currentDropdown) return
-      dropdown.classList.remove("active")
-    })
-  })
+  }
 
   
   
