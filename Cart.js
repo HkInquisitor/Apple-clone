@@ -57,3 +57,30 @@ function addToCart(product) {
   
   
   
+  let isSearchBarActive = false;
+
+  function toggleSearchBar(event) {
+    const searchBar = document.getElementById("search-bar");
+    const inputField = searchBar.querySelector('input');
+  
+    if (!isSearchBarActive) {
+      // If the search bar is not active, show it
+      isSearchBarActive = true;
+      searchBar.classList.add("active");
+      inputField.focus(); // Focus on the input field
+    } else {
+      // If the search bar is active, reset and hide it
+      isSearchBarActive = false;
+      searchBar.classList.remove("active");
+      inputField.value = ''; // Reset the input value
+    }
+  }
+  
+  // Add an event listener to the search bar to prevent it from hiding when clicked
+  document.getElementById("search-bar").addEventListener("click", function(event) {
+    event.stopPropagation();
+  });
+  
+
+  
+  
