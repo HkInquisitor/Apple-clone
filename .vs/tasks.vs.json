@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-IMG",
+      "appliesTo": "IMG/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-pic2",
+      "appliesTo": "IMG/Slider/pic2.jpg",
+      "type": "launch"
+    }
+  ]
+}
