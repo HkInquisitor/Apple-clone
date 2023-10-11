@@ -285,7 +285,7 @@
 }
 
 .rf-caption{
-    text-align: :left;
+    text-align: left;
 }
 
 .rf-caption-content{
@@ -295,6 +295,5 @@
     font-weight: 400;
     letter-spacing: -.01em;
     font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif
-}
 }
 
