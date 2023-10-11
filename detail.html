@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Menu-bar.css"> <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="Product.css">
+    <link rel="stylesheet" href="detail.css"><!-- Link to the product-specific CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-XLNO7qKQ7wGLy4+nQs0al9Z0yX8EROR8L+mvL4vw9y9T5Kz1vMJvqBjsK+gswXl39e/frcKdM58e8giTzGwNcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Link to Font Awesome icons -->
+    <title>Apple</title>
+</head>
+
+<body>
+    <div class="menu-bar">
+        <img class="logo" src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-index-content-uploads-10.png" alt="Apple Logo">
+
+        <ul class="menu-items">
+            <li id="mac" onclick="toggleSubmenu()">
+                <a href="#">Mac</a>
+                <ul class="submenu">
+                    <li><a href="#">MacBook Air</a></li>
+                    <li><a href="#">MacBook Pro</a></li>
+                    <li><a href="#">iMac</a></li>
+                    <li><a href="#">Mac mini</a></li>
+                    <li><a href="#">Mac Studio</a></li>
+                    <li><a href="#">Mac Pro</a></li>
+                    <li><a href="#">Display</a></li>
+                </ul>
+            </li>
+
+            <li id="iPad" onclick="toggleSubmenu()">
+                <a href="#">iPad</a>
+                <ul class="submenu">
+                    <li><a href="#">iPad Air</a></li>
+                    <li><a href="#">iPad Pro</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPad mini</a></li>
+                    <li><a href="#">Apple Pencil</a></li>
+                    <li><a href="#">Keyboards</a></li>
+                </ul>
+            </li>
+
+            <li id="iPhone" onclick="toggleSubmenu()">
+                <a href="#">iPhone</a>
+                <ul class="submenu">
+                    <li><a href="#">iPhone 15 Pro</a></li>
+                    <li><a href="#">iPhone 15</a></li>
+                    <li><a href="#">iPhone 14</a></li>
+                    <li><a href="#">iPhone 13</a></li>
+                    <li><a href="#">iPhone SE</a></li>
+                </ul>
+            </li>
+
+
+            <li id="Watch" onclick="toggleSubmenu()">
+                <a href="#">Watch</a>
+                <ul class="submenu_W">
+                    <li><a href="#">Apple Watch Series 9</a></li>
+                    <li><a href="#">Apple Watch Ultra 2</a></li>
+                    <li><a href="#">Apple Watch SE</a></li>
+                    <li><a href="#">Apple Watch Nike</a></li>
+                </ul>
+            </li>
+
+            <li id="TV" onclick="toggleSubmenu()">
+                <a href="#">TV</a>
+                <ul class="submenu">
+                    <li><a href="#">Apple TV 4K</a></li>
+                </ul>
+            </li>
+
+            <li id="Entertainment" onclick="toggleSubmenu()">
+                <a href="#">Entertainment</a>
+                <ul class="submenu_E">
+                    <li><a href="#">Apple One</a></li>
+                    <li><a href="#">Apple TV+</a></li>
+                    <li><a href="#">Apple Music</a></li>
+                    <li><a href="#">Apple Arcade</a></li>
+                    <li><a href="#">Apple Fitness+</a></li>
+                    <li><a href="#">Apple News+</a></li>
+                    <li><a href="#">Apple Podcasts</a></li>
+                    <li><a href="#">Apple Books</a></li>
+                    <li><a href="#">App Store</a></li>
+                </ul>
+            </li>
+
+            <li id="Accessories" onclick="toggleSubmenu()">
+                <a href="#">Accessories</a>
+                <ul class="submenu">
+                    <li><a href="#">iPhone</a></li>
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">Apple Watch</a></li>
+                    <li><a href="#">Airpods</a></li>
+                    <li><a href="#">TV & Home</a></li>
+                </ul>
+            </li>
+
+            <li id="Support" onclick="toggleSubmenu()">
+                <a href="#">Support</a>
+                <ul class="submenu">
+                    <li><a href="#">iPhone</a></li>
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">Airpods</a></li>
+                    <li><a href="#">TV</a></li>
+                    <li><a href="#">Music</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="menu-items">
+            <li class="search-icon" onclick="toggleSearchBar()">
+                <i class="fas fa-search"></i>
+                <img class="search-icon-img" src="https://img.icons8.com/?size=1x&id=132&format=png" alt="search-icon" />
+                <div id="search-bar" class="search-bar">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </li>
+
+            <li class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <img class="cart-icon-img" src="https://img.icons8.com/?size=1x&id=3686&format=png" alt="cart-icon" />
+            </li>
+        </ul>
+
+
+    </div>
+    <div class="rf-a-head-wrapper">
+        <div class="rf-a-head">
+            <div class="a-head">
+                <h1 class="top">Mua Iphone 13</h1>
+            </div>
+
+
+            <div class="a-head-price-wrapper">
+                <div class="a-head-price">
+                    <div class="price">Từ 17.299.000đ hoặc 704.000đ mỗi tháng trong 24 tháng*</div>
+                </div>
+            </div>
+            <div class="a-head-payment-wrapper downpayment">
+                <div class="a-head-price">
+                    <div class="payment">Trả góp theo tháng với lãi suất 1.67%, sau khi thanh toán lần đầu 20%.</div>
+                </div>
+            </div>
+        </div>
+        <div class="a-head-right">
+            <div class="a-head-learn-items">
+
+
+
+                <a href="" class="button">
+                    <span class="button-text">
+                        Nhận 600.000đ -25.200.000đ khi đổi.**
+                    </span>
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="rf-content row">
+        <div class="rf-content-col-left">
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="IMG/Slider/pic4.jpg" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="IMG/Slider/pic4.jpg" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="IMG/Slider/pic4.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="IMG/Slider/pic4.jpg" style="width:100%">
+                    <div class="text">Caption Four</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+        <div class="rf-content-col-right">
+            <div class="rf-content-top">
+                <div class="rf-pickcolor">
+                    <legend>
+                        <h1 class="rf-pcl color1">
+                            <span>Màu.</span>
+                            <span class="rf-pcl color2">Chọn màu bạn yêu thích.</span>
+                        </h1>
+
+                    </legend>
+                    <div class="rf-pcl2">
+                        Màu
+                    </div>
+                    
+
+                </div>
+                <div class="rf-buttoncl">
+                    <h2>
+                    <span id="dot1-m1" onclick="currentSlide(1)"></span>
+                    <span id="dot1-m2" onclick="currentSlide(2)"></span>
+                    <span id="dot1-m3" onclick="currentSlide(3)"></span>
+                    <span id="dot1-m4" onclick="currentSlide(4)"></span>
+                    <span id="dot1-m5" onclick="currentSlide(5)"></span>
+                    <span id="dot1-m6" onclick="currentSlide(6)"></span>
+                </h2>
+                </div>           
+                        <div class="rf-caption">
+                            <div class="rf-caption-content">
+                                <div>"Giờ đây, một phần lợi nhuận từ việc bán mỗi sản phẩm iPhone 13 (PRODUCT)RED sẽ được đóng góp trực tiếp cho Quỹ Toàn Cầu nhằm phòng chống bệnh COVID‑19."
+                                    </div>
+                            </div>
+
+                            </div>
+              
+                </div>
+
+                
+            
+            <div class="rf-content-bot">
+
+            </div>
+        </div>
+    </div>
+  
+    
+
+</body>
