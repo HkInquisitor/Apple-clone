@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Menu-bar.css"> <!-- Link to the CSS file -->
-  <link rel="stylesheet" href="Product.css"> <!-- Link to the product-specific CSS file -->
+  <link rel="stylesheet" href="Menu-bar.css">
+  <link rel="stylesheet" href="Product.css">
+  <link rel="stylesheet" href="Slider.css">
+  <link rel="stylesheet" href="Footer.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-XLNO7qKQ7wGLy4+nQs0al9Z0yX8EROR8L+mvL4vw9y9T5Kz1vMJvqBjsK+gswXl39e/frcKdM58e8giTzGwNcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Link to Font Awesome icons -->
   <title>Apple</title>
 </head>
@@ -121,24 +123,17 @@
 </body>
 
 <!-- Product View -->
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Product.css">
-  <title>iPhone 15</title>
-</head>
-
 <body>
   <section class="product-main">
     <div class="product-details">
       <div class="product-image">
         <img src="https://www.apple.com/v/iphone-15-pro/a/images/overview/welcome/hero_endframe__ov6ewwmbhiqq_large.jpg" alt="iPhone 15 Pro">
-        <div class="product-text-overlay"><a>iPhone 15 Pro</a></div>
-      </div>
-      <div class="button-container">
-        <a href="#" class="learn-more-button">Learn More</a>
-        <a href="#" class="buy-button" onclick="addToCart('iPhone 15 Pro')">Buy Now</a>
+        <h1 class="product-text-overlay"><a>iPhone 15 Pro</a></h1>
+        <h3 class="product-text-overlay1"><a>Titanium. So strong. So light. So Pro.</a></h1>
+        <div class="button-container">
+          <a href="#" class="learn-more-button">Learn More</a>
+          <a href="#" class="buy-button" onclick="addToCart('iPhone 15 Pro')">Buy Now</a>
+        </div>
       </div>
     </div>
   </section>
@@ -220,6 +215,8 @@
   </div>
 </section>
 
+
+<!-- Slider section -->
 <section>
 <div class="slider-container">
   <div class="slider">
@@ -237,21 +234,133 @@
     </div>
 </section>
 
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__wrapper">
+    <ul>
+      <li>1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.</li>
+      <li>
+        Apple Vision Pro has not been authorized as required by the rules of the Federal Communications Commission. This device is not, and may not be, offered for sale or lease, or sold or leased, until authorization is obtained.
+      </li>
+      <li>
+        Apple Vision Pro will be available early next year on apple.com and at Apple retail stores in the U.S.
+      </li>
+      <li>
+        To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+      </li>
+      <li>Available for qualifying applicants in the United States.</li>
+      <li>
+        If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.
+      </li>
+      <li>
+        Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.
+      </li>
+      <li>
+        A subscription is required for Apple TV+.
+      </li>
+    </ul>
 
-<footer class="apple-footer">
-  <div class="container">
-    <div class="footer-content">
-      <p>&copy; 2023 Apple Inc. All Rights Reserved.</p>
-      <ul class="footer-links">
-        <li><a href="/legal/privacy/">Privacy Policy</a></li>
-        <li><a href="/legal/internet-services/terms/site.html">Terms of Use</a></li>
-        <li><a href="/us/shop/goto/help/sales_refunds">Sales and Refunds</a></li>
-        <li><a href="/legal/">Legal</a></li>
-      </ul>
+    <div class="footer__links">
+      <div class="footer__links--column">
+        <div class="footer__links--column-title">Shop and Learn</div>
+        <a href="">Mac</a>
+        <a href="">iPad</a>
+        <a href="">iPhone</a>
+        <a href="">Watch</a>
+        <a href="">TV</a>
+        <a href="">Music</a>
+        <a href="">AirPods</a>
+        <a href="">HomePod</a>
+        <a href="">iPod touch</a>
+        <a href="">Accessories</a>
+        <a href="">Gift Card</a>
+      </div>
+
+      <div class="footer__links--column">
+        <div class="footer__links--column-title">Services</div>
+        <a href="">Apple Music</a>
+        <a href="">Apple TV+</a>
+        <a href="">Apple Fitness+</a>
+        <a href="">Apple News+</a>
+        <a href="">Apple Arcade</a>
+        <a href="">iCloud</a>
+        <a href="">Apple One</a>
+        <a href="">Apple Card</a>
+        <a href="">Apple Books</a>
+        <a href="">App Store</a>
+        <div class="footer__links--column-title">Account</div>
+        <a href="">Manage Your Apple ID</a>
+        <a href="">Apple Store Account</a>
+        <a href="">iCloud.com</a>
+      </div>
+
+      <div class="footer__links--column">
+        <div class="footer__links--column-title">Apple Store</div>
+        <a href="">Find a Store</a>
+        <a href="">Shop Online</a>
+        <a href="">Genius Bar</a>
+        <a href="">Today at Apple</a>
+        <a href="">Apple Camp</a>
+        <a href="">Apple store App</a>
+        <a href="">Refurbished and Clearance</a>
+        <a href="">Apple Trade In</a>
+        <a href="">Order Status</a>
+        <a href="">Shopping Help</a>
+      </div>
+
+      <div class="footer__links--column">
+        <div class="footer__links--column-title">For Business</div>
+        <a href="">Apple and Business</a>
+        <a href="">Shop and Business</a>
+        <div class="footer__links--column-title">For Education</div>
+        <a href="">Apple and Education</a>
+        <a href="">Shop for K-12</a>
+        <a href="">Shop College</a>
+        <div class="footer__links--column-title">For Healthcare</div>
+        <a href="">Apple in Healthcare</a>
+        <a href="">Health on Apple Watch</a>
+        <a href="">Health Records on iPhone</a>
+        <div class="footer__links--column-title">For Government</div>
+        <a href="">Shop for Government</a>
+        <a href="">Shop for Veterans and Military</a>
+      </div>
+
+      <div class="footer__links--column">
+        <div class="footer__links--column-title">Apple Values</div>
+        <a href="">Accessibility</a>
+        <a href="">Education</a>
+        <a href="">Environment</a>
+        <a href="">Inclusion and Diversity</a>
+        <a href="">Privacy</a>
+        <a href="">Supplier Responsibility</a>
+        <div class="footer__links--column-title">About Apple</div>
+        <a href="">Newsroom</a>
+        <a href="">Apple Leadership</a>
+        <a href="">Job Opportunities</a>
+        <a href="">Investors</a>
+        <a href="">Events</a>
+        <a href="">Contact Apple</a>
+      </div>
+    </div>
+
+    <div class="footer__more">
+      More ways to shop: <a href="">Find an Apple Store</a> or
+      <a href="">other retailer</a> near you. Or call 1-800-MY-APPLE.
+    </div>
+
+    <div class="footer__copyright">
+      <p>Copyright © 2023 Apple Inc. All rights reserved.</p>
+      <a href="">United States</a>
+
+      <div class="links">
+        <a href="">Privacy Policy</a>
+        <a href="">Terms of Use</a>
+        <a href="">Sales and Refunds</a>
+        <a href="">Site Map</a>
+      </div>
     </div>
   </div>
 </footer>
-
 <script src="Cart.js"></script>
 
 </body>

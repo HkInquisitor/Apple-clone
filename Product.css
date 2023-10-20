@@ -14,7 +14,7 @@ body {
 }
 .product-text-overlay {
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: transparent; /* Transparent background */
@@ -22,6 +22,19 @@ body {
   color: rgb(255, 255, 255); /* Default text color */
   font-weight: bold;
   font-size: 54px;
+} 
+
+
+.product-text-overlay1 {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; /* Transparent background */
+  padding: 10px;
+  color: rgb(255, 255, 255); /* Default text color */
+  font-weight: 300;
+  font-size: 28px;
 } 
 
 .product-main {
@@ -34,7 +47,7 @@ flex: 1;
 
 .button-container {
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -92,93 +105,3 @@ flex: 1;
   font-weight: bold;
   font-size: 40px;
 }
-
-
-.slider-container {
-  position: relative;
-  max-width: 80%;
-  margin: auto;
-  overflow: hidden;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin-bottom: 60px; /* Adjust margin to create space for the footer */
-}
-
-.slider {
-  display: flex;
-  transition: transform 0.5s ease;
-  position: relative;
-  border-radius: 8px; /* Rounded corners for the slider */
-}
-
-.slide {
-  flex: 0 0 100%;
-  position: relative;
-  overflow: hidden; /* Hide any overflow */
-}
-
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 8px; /* Rounded corners for images */
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.slide:hover .overlay {
-  opacity: 1; /* Show overlay on hover */
-}
-
-
-
-
-
-
-/* Apple-style footer styles */
-.apple-footer {
-  background-color: #f9f9f9;
-  text-align: center;
-  font-size: 14px;
-  padding: 20px;
-}
-
-.apple-footer .container {
-  max-width: 1200px;
-  margin: 0 auto;;
-  justify-content: center;
-}
-
-.apple-footer .footer-content p {
-  margin-bottom: 10px;
-}
-
-.apple-footer .footer-links {
-  list-style: none;
-  padding: 0;
-}
-
-.apple-footer .footer-links li {
-  display: inline;
-  margin: 0 10px;
-}
-
-.apple-footer .footer-links li a {
-  text-decoration: none;
-  color: #555;
-}
-
-.apple-footer .footer-links li a:hover {
-  color: #0070c9;
-}
-
