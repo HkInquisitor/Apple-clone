@@ -37,6 +37,20 @@ body {
   font-size: 28px;
 } 
 
+
+.product-text-overlay2 {
+  position: absolute;
+  top: 5.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; /* Transparent background */
+  padding: 10px;
+  color: rgb(49, 49, 49); /* Default text color */
+  font-weight: 300;
+  font-size: 28px;
+} 
+
+
 .product-main {
 flex: 1;
 }
@@ -55,7 +69,7 @@ flex: 1;
 .button-container a {
   display: inline-block;
   padding: 10px 25px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -65,6 +79,26 @@ flex: 1;
   border-radius: 30px;
 }
 
+
+.button-container1 {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-container1 a {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(39, 87, 218);
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 30px;
+}
 .button-container button:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -93,10 +127,9 @@ flex: 1;
   font-weight: bold;
   font-size: 40px;
 }
-
-.HalfoverlayShop {
+.Halfoverlay1 {
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: transparent; /* Transparent background */
@@ -104,4 +137,66 @@ flex: 1;
   color: rgb(255, 255, 255); /* Default text color */
   font-weight: bold;
   font-size: 40px;
+}
+.Halfoverlay2 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; /* Transparent background */
+  padding: 10px;
+  color: rgb(49, 49, 49); /* Default text color */
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.HalfoverlayU {
+  position: absolute;
+  top: 13.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; /* Transparent background */
+  padding: 10px;
+  color: rgb(255, 255, 255); /* Default text color */
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.HalfoverlayU2 {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; /* Transparent background */
+  padding: 10px;
+  color: rgb(49, 49, 49); /* Default text color */
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.HalfoverlayU3 {
+  position: absolute;
+  top: 13.5%;
+  left: 68%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; /* Transparent background */
+  padding: 10px;
+  color: rgb(255, 255, 255); /* Default text color */
+  font-weight: 500;
+  font-size: 19px;
+}
+
+
+.HalfoverlayU4 {
+  position: absolute;
+  top: 13%;
+  left: 64%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; /* Transparent background */
+  padding: 10px;
+  color: rgb(49, 49, 49); /* Default text color */
+  font-weight: 500;
+  font-size: 20px;
 }
