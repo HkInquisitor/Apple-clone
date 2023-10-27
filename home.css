@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: #f9f9f9; /* Light gray background color */
 }
@@ -40,7 +41,7 @@ body {
 
 .product-text-overlay2 {
   position: absolute;
-  top: 0.1%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: transparent; /* Transparent background */
