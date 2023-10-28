@@ -6,7 +6,24 @@ body {
   background-color: #f9f9f9; /* Light gray background color */
 }
 
+.container {
+  width: 90%; /* Use a percentage for containers */
+  max-width: 1200px; /* Set a maximum width for larger screens */
+} 
 
+
+@media (max-width: 768px) {
+  body {
+      font-size: 0.875rem; /* 14px / 16px = 0.875 */
+  }
+}
+
+/* Further decrease font size for screens up to 480px */
+@media (max-width: 480px) {
+  body {
+      font-size: 0.75rem; /* 12px / 16px = 0.75 */
+  }
+}
 .product-details img {
   max-width: 100%;
   width: 100%;
