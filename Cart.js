@@ -56,7 +56,7 @@ function addToCart(product) {
 
   
   
-  
+  //Search bar
   let isSearchBarActive = false;
 
   function toggleSearchBar(event) {
