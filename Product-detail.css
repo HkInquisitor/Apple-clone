@@ -121,10 +121,9 @@ body {
     list-style: none;
     display: none;
     position: absolute;
-    background-color: whitesmoke; /* Slightly transparent white background */
+    background-color: rgb(255, 253, 253); /* Slightly transparent white background */
     z-index: 1;
     width: 90px; /* Adjust the width as needed */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px; /* Rounded corners */
   }
   
@@ -137,7 +136,7 @@ body {
   }
   
   .submenu li a {
-    margin-left: -30%;
+    margin-left: -37%;
     padding: 10px; /* Adjusted padding for a more spacious feel */
     color: #333; /* Darker text color */
     text-decoration: none;
@@ -256,7 +255,7 @@ body {
 .image {
     width: 790px; /* Set a fixed width for the image */
     height: 500px; /* Maintain the aspect ratio */
-    margin-left: 29%;
+    margin-left: 16%;
     margin-top: 130px;
     position: sticky;
     top: 0;
@@ -268,18 +267,137 @@ body {
     border-bottom: 0.2px solid #000000; /* Adding a blue border line at the bottom */
     max-height: 100%; /* Adjust the maximum height as needed */
     overflow-y: hidden;
-    overflow-y: scroll;
     width: 900px;
     margin-right: 10%; /* Reduce the left margin */
 }
 
+.container {
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  display: flex;
+}
 
 
 .price {
   display: inline; /* Display the price on the same line as the memory option */
-  margin-left:  25%; /* Add some space between the memory option and the price */
-  margin-right: 100px;
+  margin-left:  44%; /* Add some space between the memory option and the price */
   font-weight: normal; /* Make the price text regular weight (optional) */
+}
+
+.pricea {
+  display: inline; /* Display the price on the same line as the memory option */
+  margin-left:  46%; /* Add some space between the memory option and the price */
+  font-weight: normal; /* Make the price text regular weight (optional) */
+}
+
+.price1a {
+  display: inline; /* Display the price on the same line as the memory option */
+  margin-left:  47%; /* Add some space between the memory option and the price */
+  font-weight: normal; /* Make the price text regular weight (optional) */
+}
+
+.price1b {
+  display: inline; /* Display the price on the same line as the memory option */
+  margin-left:  51%; /* Add some space between the memory option and the price */
+  font-weight: normal; /* Make the price text regular weight (optional) */
+}
+.price2 {
+  display: inline; /* Display the price on the same line as the memory option */
+  margin-left:  36%; /* Add some space between the memory option and the price */
+  font-weight: normal; /* Make the price text regular weight (optional) */
+}
+
+
+.card1 {
+  width: 100%;
+  height: 85px;
+  padding: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 8px 0 0  8px;
+  cursor: pointer;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden; /* Hide overflowing content */
+}
+.card2 {
+  width: 100%;
+  height: 85px;
+  padding: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 0 8px 8px  0;
+  cursor: pointer;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.card1 h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap; /* Prevent text from wrapping */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  margin-left: 24.5%;
+}
+
+.card1 .price2 {
+  margin-left: 27.5%;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  white-space: nowrap; /* Prevent price from wrapping */
+  overflow: hidden; /* Hide overflowing price */
+}
+
+.card2 h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 ;
+  white-space: nowrap; /* Prevent text from wrapping */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  margin-left: 24.5%;
+}
+
+.card2 .price2 {
+  margin-left: 27.5%;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  white-space: nowrap; /* Prevent price from wrapping */
+  overflow: hidden; /* Hide overflowing price */
+}
+.container1.text{
+  text-align: center;
+}
+
+#preInstalledOption1 {
+  background-color: #ffffff;
+  color: #000;
+}
+
+#preInstalledOption2 {
+  background-color: #ffffff;
+  color: #000;
+}
+
+
+#preInstalledOption1:hover {
+  border-color: #0070c9;
+
+}
+
+#preInstalledOption2:hover {
+  border-color: #0070c9;
+
 }
 
 .card {
@@ -291,6 +409,7 @@ body {
   width: 100%;
   transition: border-color 0.3s;
   cursor: pointer; /* Change cursor style to pointer on hover */
+  flex: 1;
 
 }
 .card.selected {
@@ -303,6 +422,21 @@ body {
 }
 .card.selected:hover {
   border-color: #0070c9;
+}
+
+
+select {
+  appearance: none;
+  background-color: transparent;
+  border: 0.5px solid #000000;
+  border-radius: 8px;
+  padding: 4%;
+  font-size: 18px !important;
+  color: #000000;
+  width: 106%;
+  cursor: pointer;
+  position: relative;
+  margin-top: 4%;
 }
 
 
@@ -320,12 +454,12 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: bold;
 }
 
@@ -405,6 +539,7 @@ a:hover {
   margin-top: 18px;
   margin-bottom: 15px;
   letter-spacing: 0.5px;
+  font-weight: bold;
 }
 
 .footer__links--column a {
