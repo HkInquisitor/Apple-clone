@@ -252,13 +252,45 @@ body {
   padding: 0; /* Adjust padding as needed */
 }
 
-.image {
-    width: 790px; /* Set a fixed width for the image */
-    height: 500px; /* Maintain the aspect ratio */
-    margin-left: 16%;
+.viewgallery{
+  width:100%;
+  max-width:430px;
+  height:99px;
+  
+  text-align:center;
+  padding:22px 0;
+}
+
+.configuration-sticky{
+  margin-left: 16%;
     margin-top: 130px;
     position: sticky;
     top: 0;
+}
+
+.buystrip{
+  text-align:center;
+  padding-bottom:20px;
+  font-size:12px;
+}
+.chatspecial{
+  text-align:center;
+  font-weight:400;
+  font-size:14px;
+  line-height:1.42859;
+  padding-bottom :80px;
+}
+
+
+
+.image {
+    width: 410px; /* Set a fixed width for the image */
+    height: auto; /* Maintain the aspect ratio */
+  
+    cursor:pointer;
+    text-align:center;
+
+
 }
 
 .description {
@@ -325,6 +357,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden; /* Hide overflowing content */
+  
 }
 .card2 {
   width: 100%;
@@ -377,6 +410,26 @@ body {
 }
 .container1.text{
   text-align: center;
+}
+.saveitem{
+  margin-left:25px;
+  margin-right:25px;
+}
+.saveitem h2{
+  padding-top:30px;
+  font-size:14px;
+  font-weight:600;
+  margin:0;
+}
+.saveitem-content{
+  font-size:14px;
+  font-weight:400;
+  line-height:1.42859;
+  letter-spacing: .016em;
+  margin-bottom:10px;
+}
+.saveitem img{
+ height:15px;
 }
 
 #preInstalledOption1 {
