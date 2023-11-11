@@ -486,6 +486,50 @@ body {
  height:15px;
 }
 
+.billboard{
+  width:80%;
+  height:600px;
+  background-size: cover;
+  position:relative;
+  
+
+  justify-content: center;
+  display: flex;
+  box-sizing: border-box;
+  margin-left:auto;
+  margin-right:auto;
+
+
+}
+
+
+.billboard a{
+  width:50%;
+  height:100%;
+}
+.billboard-text{
+  
+  padding: 0;
+  top:15%;
+  left: 8%;
+  position: absolute;
+  
+  text-align: left;
+  display:block
+}
+
+.billboard-header img{
+  width:65px;
+  height:30px
+}
+
+.billboard-content{
+  color:white;
+  font-size:32px;
+  font-weight:600;
+  width:330px;
+}
+
 #preInstalledOption1 {
   background-color: #ffffff;
   color: #000;
