@@ -488,7 +488,7 @@ body {
 
 .billboard{
   width:80%;
-  height:600px;
+  height:450px;
   background-size: cover;
   position:relative;
   
@@ -520,7 +520,7 @@ body {
 
 .billboard-header img{
   width:65px;
-  height:30px
+  height:25px
 }
 
 .billboard-content{
