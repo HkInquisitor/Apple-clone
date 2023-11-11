@@ -530,6 +530,11 @@ body {
   width:330px;
 }
 
+
+.link-stack{
+  font-size:17px;
+}
+
 #preInstalledOption1 {
   background-color: #ffffff;
   color: #000;
