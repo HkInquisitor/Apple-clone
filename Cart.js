@@ -83,4 +83,15 @@ function addToCart(product) {
   
 
   
+// Get references to the button and product details div
+const toggleButton = document.getElementById('toggleDetailsButton');
+const productDetails = document.getElementById('productDetails');
+
+// Add a click event listener to the button
+toggleButton.addEventListener('click', function() {
+    // Toggle the "hidden" class on the product details div
+    productDetails.classList.toggle('hidden');
+});
+
+  
   
