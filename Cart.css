@@ -1,3 +1,209 @@
+/*MENUBAR */
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  background-repeat: repeat-x;
+  padding: 15px 320px;
+  height: 20px;
+  font-size: 80%;
+}
+
+.menu-items {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.menu-items li {
+  margin: 0 10px;
+  position: relative;
+}
+
+.menu-items li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  display: block;
+}
+
+.menu-items li a:hover {
+  background-color: #555;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  position: relative; /* Relative positioning for child elements */
+}
+
+.search-bar {
+  display: none;
+  max-width: 0;
+  padding: 0;
+  transition: max-width 0.3s ease-in-out, padding 0.3s ease-in-out;
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.search-bar.active {
+  display: block;
+  max-width: 150px; /* Adjust the max-width as needed */
+  padding: 5px; /* Adjust the padding as needed */
+}
+
+.search-bar input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-radius: 24px;
+}
+
+.menu-items .search-icon-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.menu-items .cart-icon-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.menu-items i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+
+.submenu {
+  list-style: none;
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 253, 253); /* Slightly transparent white background */
+  z-index: 1;
+  width: 90px; /* Adjust the width as needed */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.menu-items li:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  margin: 0;
+}
+
+.submenu li a {
+  margin-left: -37%;
+  padding: 10px; /* Adjusted padding for a more spacious feel */
+  color: #333; /* Darker text color */
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submenu li a:hover {
+  background-color:rgba(0, 122, 204, 0.1); /* Light gray background on hover */
+  color: #0070c9; /* Apple-like blue for text on hover */
+}
+
+
+.submenu_W {
+  list-style: none;
+  display: none;
+  position: absolute;
+  background-color: whitesmoke; /* Slightly transparent white background */
+  z-index: 1;
+  width: 140px; /* Adjust the width as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Rounded corners */
+}
+
+.menu-items li:hover .submenu_W {
+  display: block;
+}
+
+.submenu_W li {
+  margin: 0;
+}
+
+.submenu_W li a {
+  margin-left: -30%;
+  padding: 10px; /* Adjusted padding for a more spacious feel */
+  color: #333; /* Darker text color */
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submenu_W li a:hover {
+  background-color:rgba(0, 122, 204, 0.1); /* Light gray background on hover */
+  color: #0070c9; /* Apple-like blue for text on hover */
+}
+
+
+.submenu_E {
+  list-style: none;
+  display: none;
+  position: absolute;
+  background-color: whitesmoke; /* Slightly transparent white background */
+  z-index: 1;
+  width: 100px; /* Adjust the width as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Rounded corners */
+}
+
+.menu-items li:hover .submenu_E {
+  display: block;
+}
+
+.submenu_E li {
+  margin: 0;
+}
+
+.submenu_E li a {
+  margin-left: -30%;
+  padding: 10px; /* Adjusted padding for a more spacious feel */
+  color: #333; /* Darker text color */
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submenu_E li a:hover {
+  background-color:rgba(0, 122, 204, 0.1); /* Light gray background on hover */
+  color: #0070c9; /* Apple-like blue for text on hover */
+}
+
+
+.search-icon img,
+.menu-items li img {
+  filter: invert(0);
+  max-width: 19px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo {
+  max-width: 1.5%;
+  height: auto;
+}
+
 .apple-footer {
   background-color: #f9f9f9;
   text-align: center;
